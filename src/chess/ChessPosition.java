@@ -13,7 +13,6 @@ public class ChessPosition {
         }
         this.column = column;
         this.row = row;
-        System.out.println();
     }
 
     public char getColumn() {
