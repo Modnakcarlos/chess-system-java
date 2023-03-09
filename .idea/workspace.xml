@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="259827df-81a5-4925-be12-3d27f135e1dc" name="Changes" comment="First class: Position">
-      <change afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boardgame/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boardgame/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chess/ChessPiece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chess/Color.java" afterDir="false" />
+    <list default="true" id="259827df-81a5-4925-be12-3d27f135e1dc" name="Changes" comment="code update!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess-system-java/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boardgame/Board.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Estudos/Java/Java-Udemy",
+    "last_opened_file_path": "C:/naruto-progress-1.1.0-signed.zip",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -65,7 +61,8 @@
       <workItem from="1678282534494" duration="5166000" />
       <workItem from="1678293643602" duration="97000" />
       <workItem from="1678293765980" duration="46000" />
-      <workItem from="1678293828146" duration="5230000" />
+      <workItem from="1678293828146" duration="8909000" />
+      <workItem from="1678329498860" duration="502000" />
     </task>
     <task id="LOCAL-00001" summary="Project created">
       <created>1678282714611</created>
@@ -95,7 +92,35 @@
       <option name="project" value="LOCAL" />
       <updated>1678284417302</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New class: board design">
+      <created>1678317684642</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678317684642</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2 classes about boardGame - Basic layer in project">
+      <created>1678317840071</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678317840071</updated>
+    </task>
+    <task id="LOCAL-00007" summary="classes about chess and rules - second layer in project">
+      <created>1678317906807</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678317906807</updated>
+    </task>
+    <task id="LOCAL-00008" summary="code update!">
+      <created>1678317931800</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678317931800</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +129,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project created" />
     <MESSAGE value="First class: Position" />
-    <option name="LAST_COMMIT_MESSAGE" value="First class: Position" />
+    <MESSAGE value="New class: board design" />
+    <MESSAGE value="2 classes about boardGame - Basic layer in project" />
+    <MESSAGE value="classes about chess and rules - second layer in project" />
+    <MESSAGE value="code update!" />
+    <option name="LAST_COMMIT_MESSAGE" value="code update!" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
