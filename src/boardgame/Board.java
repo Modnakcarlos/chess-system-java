@@ -27,14 +27,14 @@ public class Board {
 
     public Piece piece(int row, int column) {
         if(!positionExists(row, column)){
-            throw new BoardException("Position not on the board");
+            throw new BoardException("Position not on the board (public Piece piece");
         }
         return pieces[row][column];
     }
 
     public Piece piece(Position position) {
         if(!positionExists(position)){
-            throw new BoardException("Position not on the board");
+            throw new BoardException("Position not on the board (Public;;; position");
         }
         return pieces[position.getRow()][position.getColumn()];
     }
@@ -46,6 +46,20 @@ public class Board {
         pieces[position.getRow()][position.getColumn()] = (ChessPiece) piece;
         piece.position = position;
     }
+
+    public Piece removePiece(Position position) {
+        if (!positionExists(position)) {
+            throw new BoardException("Position not on the board");
+        }
+        if(piece(position) == null) {
+            return null;
+        }
+        Piece aux = piece(position);
+        aux.position = null;
+        pieces[position.getRow()][position.getColumn()] = null;
+        return aux;
+    }
+
 
     private boolean positionExists(int row, int column) {
         return row >= 0 && row < rows && column >= 0 && column < columns;
